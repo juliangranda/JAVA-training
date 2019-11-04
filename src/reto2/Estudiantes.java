@@ -97,13 +97,16 @@ public class Estudiantes {
 		this.descuento = descuento;
 	}
 
-
-
 	@Override
 	public String toString() {
 		return "Estudiantes [nombre=" + nombre + ", numero_carne=" + numero_carne + ", numero_creditos="
-				+ numero_creditos + ", valor_credito=" + valor_credito + ", descuento=" + descuento + "]";
+				+ numero_creditos + ", valor_credito=" + valor_credito + ", descuento=" + descuento + ", matricula()="
+				+ matricula() + "]";
 	}
+	
+
+
+
 	
 	
 

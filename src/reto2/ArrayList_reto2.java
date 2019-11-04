@@ -57,9 +57,7 @@ public class ArrayList_reto2 {
 		
 		System.out.println("-----------------");
 		
-        for(int x=0;x<miLista.size();x++) {
-			System.out.println( miLista.get(x).toString());
-      	}
+
 		
 		
 		for (int i = 0; i < miLista.size(); i++) {
@@ -73,7 +71,9 @@ public class ArrayList_reto2 {
 		System.out.println("la matricula mas alta es de : " + carnetMatriculaMasAlta);
 		
 
-		
+        for(int x=0;x<miLista.size();x++) {
+			System.out.println( miLista.get(x).toString());
+      	}
 		
 
 	}
